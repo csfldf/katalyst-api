@@ -57,7 +57,11 @@ const (
 	PodAnnotationNetworkEnhancementNamespaceTypeHostPrefer    = "host_ns_preferred"
 	PodAnnotationNetworkEnhancementNamespaceTypeNotHost       = "anti_host_ns"
 	PodAnnotationNetworkEnhancementNamespaceTypeNotHostPrefer = "anti_host_ns_preferred"
+	PodAnnotationNetworkEnhancementNamespaceTypeNone          = "none"
 
 	PodAnnotationNetworkEnhancementAffinityRestricted     = "topology_affinity_restricted"
 	PodAnnotationNetworkEnhancementAffinityRestrictedTrue = "true"
+
+	PodAnnotationNetworkEnhancementNicBinding     = "nic_binding"
+	PodAnnotationNetworkEnhancementNicBindingTrue = "true"
 )
